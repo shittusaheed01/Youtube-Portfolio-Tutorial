@@ -1,0 +1,152 @@
+body{
+ margin:0px;
+ padding:0px;
+ background-color: #161616;
+ text-transform: capitalize;
+ box-sizing: border-box;
+}
+ul{
+ list-style: none;
+}
+a{
+ text-decoration: none;
+}
+#main{
+ width: 120vw;
+ height: 100vh;
+ box-sizing: border-box;
+ background-color: #edf1fd;
+} 
+nav{
+ display: flex;
+ text-align: center;
+ justify-content: space-between;
+ text-transform: uppercase;
+ width: 100%;
+ font-weight: 600;
+ letter-spacing: 2px;
+ font-family: calibri;
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ box-sizing: border-box;
+ padding: 10px 50px;
+ background-color: #f4f7ff;
+ box-shadow: 2px 2px 12px rgba(0,0,0,0.05);
+ z-index:1;
+}
+.menu{
+display: flex;
+}
+.menu li a{
+ color:#6c707c;
+ padding:10px 15px;
+ font-size: 12px;
+}
+.lang{
+ color: #292929;
+}
+.logo{
+ font-size: 25px;
+ font-weight: bold;
+ color: #292929;
+ font-family:poppins ;
+}
+.menu li a:hover,
+.active{
+ color:#ffffff !important;
+ font-weight: 700;
+ transition: all ease 0.4s;
+ background-color: #292929;
+}
+.name{
+ font-family: calibri;
+ width: 500px;
+ position: absolute;
+ top: 50%;
+ left: 19%;
+ text-transform: capitalize;
+ transform: translate(-20%,-50%);
+}
+.name p:nth-child(1),
+.name .details{
+ color:#6c707c;
+ font-size:16px;
+}
+.name h1{
+ font-family: Poppins;
+ letter-spacing: 3px;
+ font-size: 40px;
+ margin: 0px;
+ color: #292929;
+ font-weight: 900;
+}
+.cv-btn{
+ width: 200px;
+ background-color: #292929;
+ border-radius: ;
+ height: 45px;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ color: #ffffff;
+}
+.cv-btn:hover{
+ background-color: #131313;
+ transition: all ease 0.5s;
+}
+.social{
+ position: absolute;
+ left: 50px;
+ bottom: 50px;
+ display: flex;
+}
+.social a{
+ margin: 6px 18px;
+ font-size: 20px;
+ color: rgba(18,17,17,0.7);
+}
+.social a:hover{
+ color: #17d1ac;
+ transition: all ease 0.5s;
+}
+.about{
+ width: 100%;
+ height: 100vh;
+align-items: center;
+justify-content: pace-between;
+padding: 50px 5% 0px 5%;
+}
+.about-text{
+ font-family: calibri;
+ width: 500px;
+ padding: 0px;
+ height: 50%;
+}
+.about-text h1{
+ font-size: 5rem;
+ color: #17d1ac;
+}
+.about-text h2{
+ font-size: 3rem;
+ color: #ffffff;
+ font-weight: 400;
+}
+.about-text p{
+ font-size: 1.2rem;
+ color: rgba(251,251,251,0.9);
+}
+.about-text button{
+ width:180px;
+ height: 40px;
+ border-radius:20px;
+ border:none;
+ outline:none;
+ font-size: 14px;
+ background-color:#17d1ac;
+}
+.about-text button:hover{
+ background-color: #f4f7ff;
+ transition: all ease 0.3s;
+ font-weight: bolder;
+}
